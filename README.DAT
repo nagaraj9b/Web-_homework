@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Visualization dashboard</title>
+       
+</head>
+<body>
+
+    <body style="background-color: lightblue">
+      
+    
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="Web visulization_LandingPage.html">
+                        <span class="nav-color"><b>Latitude</b></span>
+                
+                 
+            </div>
+              
+              <div class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="MaxTemperature.html">Max Temperature</a></li>
+                                <li><a href="Humidity.html">Humidity</a></li>
+                                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a href="Wind Speed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparision.html">Comparison</a></li>
+                    <li><a href="data.html"> Data</a></li>                                           
+                </div>
+            </div>      
+        </nav>
+
+        <div class = "container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+        
+                            <h2><font size="3" color="Midnightblue">Summary: Latitude vs x</font></h2>
+                            <hr>
+                            <p style="float: left;">
+                            <img class="img-responsive" src="assets\images\Fig1.png" alt="Chania" width="250" height="500"> 
+                            <p class = "text"><font size="1.5" color="Midnightblue">The purpose of the project is to analyze the weather changes as you get closer to equator. 
+                                To accomplish this first we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</font></p>
+                            <br>
+                            <p class = "text"><font size="1.5" color="Midnightblue">After Assembling the dataset, we used Matplotlib to pilot various aspects of the weather vs. Altitude.Factors
+                                we looked at included Visualizations created as part of the anlysis, as well as explanations and descriptions of any trends and compilations witnessed.
+                            </font></p>
+                            </p>
+                            <br>        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                            <div class="panel panel-default">
+                                    <div class="panel-body">                                    
+                                        <h2>Visualizations</h2>
+                                        <hr>
+            
+                                        <div class="row" >
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="MaxTemperature.html"><img class = "img img-responsive"  src="assets\images\Fig1.png" style="width:100%" alt=""></a></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Humidity.html"><img class = "img img-responsive" src="assets\images\Fig2.png" style="width:100%" alt=""></a></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Cloudiness.html"><img class = "img img-responsive" src="assets\images\Fig3.png" style="width:100%" alt=""></a></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Wind speed.html"><img class = "img img-responsive" src="assets\images\Fig4.png" style="width:100%" alt=""></a></div>
+                                        </div>
+                                            
+                                    </div>
+                            </div>     
+                        </div>     
+                        </div>   
+                    </div>
+                </div> 
+            
+</body>
+</html>

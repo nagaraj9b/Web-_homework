@@ -8,4 +8,4 @@ Please use the above link for the landing page, it is an analysis of weather dat
 2) Images are in the Assets folder.
 
 
-![landingpage](landingpage.jpeg)
+![landingpage](Landing page.jpg)

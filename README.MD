@@ -1,6 +1,6 @@
 # Web Visualiztion Dashboard
 
-###https://github.com/nagaraj9b/Web-_homework/blob/master/Web%20visulization_LandingPage.html
+https://github.com/nagaraj9b/Web-_homework/blob/master/Web%20visulization_LandingPage.html
 
 Please use the above link for the landing page, it is an analysis of weather data.
 
@@ -8,4 +8,4 @@ Please use the above link for the landing page, it is an analysis of weather dat
 2) Images are in the Assets folder.
 
 
-![landingpage](landingpage.jped)
+![landingpage](landingpage.jpeg)
